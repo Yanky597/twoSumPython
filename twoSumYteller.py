@@ -6,10 +6,11 @@ class Solution:
         
         The following is my solution to the Leet code problem "Two Sum"
         
-        using list comprehension we iterate through the list of nums and check if the target - currentValue
+        Using list comprehension we iterate through the list of nums and check if the target - currentValue
         is in the list, if yes we return the current index + the index of the second value.
-
-        This is my solution written out in a more "traditional way" for better readability.
+        
+       
+        Written out in a more "traditional way" for better readability.
 
         for i in range(len(nums)):
             if((target-nums[i]) in nums and nums.index(target-nums[i]) != i):
